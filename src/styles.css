@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  background-color: lightgray;
+}
+.keeper {
+  background-color: yellow;
+  margin: -9px;
+  box-shadow: 0 0 10px 0 gray;
+}
+h1 {
+  font-family: serif;
+  font-weight: bold;
+}
+.writtingArea {
+  background-color: white;
+  border-radius: 7px;
+  padding: 11px;
+  margin: 15px;
+  width: 240px;
+  float: left;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
