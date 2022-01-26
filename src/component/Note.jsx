@@ -1,8 +1,9 @@
 import React from "react";
-function Note() {
+
+function Note(props) {
   return (
     <div className="writtingArea">
-      <h3>Hello</h3>
+      <h3>{props.name}</h3>
       <p contentEditable="true"> ashjgdgadg</p>
     </div>
   );
